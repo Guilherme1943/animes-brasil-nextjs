@@ -13,12 +13,12 @@ export default function Header() {
     <>
       <HeaderContainer>
         <HeaderContent>
-          <Logo href="/">ADS Animes</Logo>
+          <Logo href="/">Encontre os Melhores Jogos </Logo>
 
           <Nav>
-            <NavLink href="/">Home</NavLink>
-            <NavLink href="/animes">Animes</NavLink>
-            <NavLink href="/animes/novo">Cadastrar</NavLink>
+            <NavLink href="/">Menu</NavLink>
+            <NavLink href="/animes">Jogos</NavLink>
+            <NavLink href="/animes/novo">cadastre-se aqui!</NavLink>
 
             <LoginButton onClick={() => setShowLogin(true)}>
               <FaUserCircle size={26} />
@@ -34,15 +34,15 @@ export default function Header() {
 
 // 💅 Estilos do Header
 const HeaderContainer = styled.header`
-  background-color: #1e293b;
-  color: white;
+  background color rgba(255, 0, 0, 1)
+  color: rgba(0, 31, 206, 1);
   padding: 1rem 2rem;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 100;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgba(35, 255, 35, 1);
   box-sizing: border-box;
 `;
 
@@ -59,7 +59,7 @@ const HeaderContent = styled.div`
 const Logo = styled(Link)`
   font-size: 1.5rem;
   font-weight: 700;
-  color: #10b981;
+  color: #01d7fdff;
   text-decoration: none;
 
   &:hover {
@@ -81,7 +81,7 @@ const NavLink = styled(Link)`
   transition: color 0.2s ease;
 
   &:hover {
-    color: #10b981;
+    color: #18bd02ff;
   }
 `;
 
@@ -93,6 +93,6 @@ const LoginButton = styled.button`
   transition: color 0.2s ease;
 
   &:hover {
-    color: #10b981;
+    color: #eeff00ff;
   }
 `;

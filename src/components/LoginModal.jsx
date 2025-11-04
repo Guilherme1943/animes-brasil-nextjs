@@ -50,7 +50,7 @@ export default function LoginModal({ onClose }) {
 const Overlay = styled.div`
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(160, 144, 144, 0.62);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,7 +69,7 @@ const ModalBox = styled.div`
 const Title = styled.h2`
   margin-bottom: 1.5rem;
   text-align: center;
-  color: #1e293b;
+  color: #0764faff;
 `;
 
 const Form = styled.form`

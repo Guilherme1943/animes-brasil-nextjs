@@ -10,9 +10,9 @@ export default function Home() {
       <Header /> {/* ✅ adiciona o cabeçalho fixo */}
       <Container>
         <Content>
-          <Title>Página dedicada a fãs de animes! 🎌</Title>
+          <Title>Página Para quem Gosta de Jogos! 🎌</Title>
           <Subtitle>
-            Explore, descubra e compartilhe seus animes favoritos.
+            Muryo Kusho
           </Subtitle>
 
           {/* <ButtonWrapper>
@@ -32,7 +32,7 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #5a76a4, #240045);
+  background: linear-gradient(135deg, #0112ffff, #ff1111ff);
   color: white;
   text-align: center;
   padding-top: 4rem; /* 🔹 espaço para o header fixo */
@@ -61,7 +61,7 @@ const ButtonWrapper = styled.div`
 `;
 
 const CadastrarButton = styled(Link)`
-  background-color: #10b981;
+  background-color: #0bec03ff;
   color: white;
   padding: 0.9rem 1.8rem;
   border-radius: 10px;
@@ -71,7 +71,7 @@ const CadastrarButton = styled(Link)`
   transition: background-color 0.25s ease, transform 0.15s ease;
 
   &:hover {
-    background-color: #059669;
+    background-color: #b10294ff;
     transform: scale(1.05);
   }
 `;
